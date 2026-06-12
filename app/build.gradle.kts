@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.tarang.elite"
-    compileSdk = 36
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.tarang.elite"
@@ -75,4 +75,5 @@ dependencies {
     implementation(libs.androidx.work.runtime)
     implementation(libs.androidx.health.connect)
 }
+
 
