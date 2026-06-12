@@ -1,0 +1,11 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+# NOTE: keystore/release.jks is deliberately committed so CI can sign
+# consistent, updatable builds. Keep this repository PRIVATE.
