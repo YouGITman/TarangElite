@@ -27,7 +27,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Build signed release APK
-        run: gradle assembleRelease --no-daemon
+        run: gradle assembleRelease --no-daemon --stacktrace
 
       - name: Rename APK
         run: cp app/build/outputs/apk/release/app-release.apk TarangElite.apk
@@ -45,3 +45,4 @@ jobs:
           name: "Tarang Elite — latest build"
           body: "Auto-built from the latest push. Download TarangElite.apk on your Pixel and tap to install."
           files: TarangElite.apk
+
